@@ -1,0 +1,29 @@
+Problema
+Hacker es un bebé que puede saltar hasta 2 escalones a la vez. El bebé quiere subir una terraza con n escalones. Debemos determinar cuántas maneras distintas existen para que Hacker pueda subir a la terraza.
+
+Entradas y Salidas
+Entrada: Un entero N que representa el número de escalones.
+Salida: Un entero que representa el número de maneras distintas de subir a la terraza.
+
+Ejemplo
+Entrada
+2
+
+Salida
+2
+
+Explicación del Ejemplo
+Para N = 2:
+Hacker puede subir de dos maneras:
+Subir 1 escalón y luego otro 1 escalón.
+Subir directamente 2 escalones.
+Por lo tanto, hay 2 maneras distintas de subir 2 escalones.
+
+Enfoque para Resolver el Problema
+Este problema se puede resolver usando una técnica similar a la de la serie de Fibonacci, donde:
+
+Si N = 0, hay 1 manera de no subir ningún escalón (quedarse en el mismo lugar).
+Si N = 1, hay 1 manera de subir 1 escalón (un salto de 1 escalón).
+Si N = 2, hay 2 maneras de subir 2 escalones (como se explicó en el ejemplo).
+Para N > 2, la cantidad de maneras de subir N escalones es la suma de las maneras de subir N-1 y N-2 escalones. Esto es porque desde el N-1 escalón, Hacker puede dar un salto de 1 escalón, y desde el N-2 escalón, Hacker puede dar un salto de 2 escalones.
+

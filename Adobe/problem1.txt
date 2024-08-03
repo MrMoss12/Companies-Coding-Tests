@@ -1,0 +1,27 @@
+Question 1 Q
+Hacker has two strings S and T. He has to find the minimum (contiguous) substring Window of S.
+So that T is a subsequence of Window. Note: If there is no such Window in S that cover all characters in T, return the empty string.
+If there are multiple such minimum-length windows, return the one with the left-most starting index.
+Input format > The first line contains two strings S and T.
+Output format > Print the minimum (contiguous) substring Window of S.
+Constraints 1<=length of S<=2000 1<=length of T<=100
+Sample input
+abcdebdde bde
+B
+Sample output
+bcde
+
+Problema
+Tienes dos cadenas S y T. Debes encontrar la subcadena mínima (contigua) en S de modo que T sea una subsecuencia de esta subcadena.
+Si no existe tal subcadena, debes devolver una cadena vacía. Si hay múltiples subcadenas de mínima longitud, 
+debes devolver la que tenga el índice de inicio más a la izquierda.
+
+Definiciones
+*Subcadena contigua: Una porción continua de la cadena original. Por ejemplo, "abc" es una subcadena contigua de "abcdef".
+*Subsecuencia: Una secuencia que se puede obtener de otra eliminando algunos elementos sin cambiar el orden de los elementos restantes. 
+Por ejemplo, "ace" es una subsecuencia de "abcdef".
+
+Entradas y Salidas
+*Entrada: La primera línea contiene dos cadenas S y T.
+*Salida: Imprime la subcadena mínima de S que contiene a T como subsecuencia.
+
